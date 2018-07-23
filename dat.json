@@ -1,8 +1,8 @@
 
 
     "Koreanfood"= {
-              "queens":{"name" : "rolli", "star": "4"},
-              "brooklyn": {"name" : "gogo", "star": "5"},
-              "manhattan": {"name" : "woorijip", "star": "2"},
-              "boston": {"name" : "meju", "star":"3"}
+              "queens":{"name" : "rolli", "star": 4},
+              "brooklyn": {"name" : "gogo", "star": 5},
+              "manhattan": {"name" : "woorijip", "star": 2},
+              "boston": {"name" : "meju", "star":3}
     }
