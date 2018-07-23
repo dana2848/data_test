@@ -11,12 +11,12 @@ function loadDoc() {
     if (this.readyState == 4 && this.status == 200) {
 
       var myObj = JSON.parse(this.responseText);
-       console.log(myObj);
+       // console.log(myObj);
     var korean = (
-      this.name = myObj.Koreanfood.queens.name
-      // this.star = myObj.FoodScountry.queens.star
+      this.name = myObj.Koreanfood.queens.name,
+      this.star = myObj.Koreanfood.queens.star,
     );
-    document.getElementById("name1").innerHTML = 'restaurant name ' + myObj.Koreanfood.queens.name;
+    document.getElementById("name1").innerHTML = 'restaurant name ' + korean.name;
     // document.getElementById("star").innerHTML = 'star rated ' + this.star = myObj.FoodScountry.queens.star;
 
 
