@@ -13,11 +13,11 @@ function loadDoc() {
       var myObj = JSON.parse(this.responseText);
        console.log(myObj);
     // var korean = (
-    //   this.name = myObj.FoodScountry.Koreanfood.queens.name
+    //   this.name = myObj.Koreanfood.queens.name
     //   // this.star = myObj.FoodScountry.queens.star
     // );
-    document.getElementById("name1").innerHTML = 'restaurant name ' + myObj.FoodScountry.Koreanfood.queens.name;
-    document.getElementById("star").innerHTML = 'star rated ' + this.star = myObj.FoodScountry.queens.star;
+    document.getElementById("name1").innerHTML = 'restaurant name ' + myObj.Koreanfood.queens.name;
+    // document.getElementById("star").innerHTML = 'star rated ' + this.star = myObj.FoodScountry.queens.star;
 
 
 
